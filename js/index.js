@@ -32,10 +32,11 @@ function howsTheWeather(temperature) {
 }
 
 /* 
-  Write a method `fizzbuzz` takes in a number. For multiples of three, return
-  "Fizz" instead of the number. For the multiples of five, return "Buzz". For
-  numbers which are multiples of both three and five, return "FizzBuzz". For
-  all other numbers, just return the number itself.
+  Write a method `fizzbuzz` takes in a number. 
+  For multiples of three, return "Fizz" instead of the number. 
+  For the multiples of five, return "Buzz".
+  For numbers which are multiples of both three and five, return "FizzBuzz". 
+  For all other numbers, just return the number itself.
 */
 function fizzbuzz(num) {
   if (num % 3 === 0 && num % 5 === 0) {
